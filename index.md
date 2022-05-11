@@ -4,15 +4,24 @@ San Francisco’s Muni bus lines have been in flux for the past two or more year
 
 ## Background
 
-My motivation for this project was to understand what I have been experiencing on my commute by utilizing the python skills I have learned in the past year. As I have been commuting from San Francisco to Berkeley during peak hours on the weekdays, my normal route is taking the 38 or 38 Rapid from my home to Powell street, where I then get off and walk over to the Powell BART station and transfer to rail. I observed a stark difference from my commute in 2021 to 2022, starting around February to March of this year, and was shocked on the crowding I was seeing that I documented through photos of what I was experiencing. 
+My motivation for this project was to further understand what I have been experiencing on my commute by utilizing the python skills I have learned in the past year. As I have been commuting from San Francisco to Berkeley during peak hours on the weekdays, my normal route is taking the 38 or 38 Rapid from my home to Powell street, where I then get off and walk over to the Powell BART station and transfer to rail. I observed a stark difference from my commute in 2021 to 2022, starting around February to March of this year, and was shocked by the crowding I was seeing, that I documented through photos of what I was experiencing. 
 
 ![IMG_1456](https://user-images.githubusercontent.com/98346785/167916723-4e8fbbe3-1e16-469f-9f96-27f85a6bbd75.jpg)
 ![IMG_0830](https://user-images.githubusercontent.com/98346785/167916748-949d5b26-1192-421d-bfc3-4ad73ca871ab.jpg)
 ![IMG_1459](https://user-images.githubusercontent.com/98346785/167916760-c76b061b-538c-4e87-9cc5-893530ea9d4e.jpg)
 ![IMG_1768](https://user-images.githubusercontent.com/98346785/167916771-c393dbd0-0192-408b-a94a-8fcf002c8244.jpg)
 
-_Italic_Photos taken February 1st, 2022 and March 16th, 2022
+*Photos taken February 1st, 2022 and March 16th, 2022.*
 
+It can be seen that there is little to no standing room on the bus during peak hours, where a rider may have to wait another 10 minutes for the next bus to arrive since there is no room on the bus that had just passed. Having this kind of crowding adds to delays- the bus idles for up to 3 minutes as the chaotic dance of people getting on and off the bus at each stop culminates to a point of stress. Social distancing is not a thing on peak commuter buses, where people are squeezing onto the bus and preventing the doors from closing, all while triggering the sensors to repeat the phrase “stand clear of the door.” 
+
+Through reading news articles from local papers and SFMTA Public comments, it was clear that major employers in the central business district (CBD) were having their employees return back to the offices to some capacity in 2022- making bus lines like the 38 crowded with bringing people from residential parts of San Francisco to the CBD. 
+
+It is important to have a grasp on how the SFMTA Muni bus system adapted during the height of COVID-19 and now how they are trying to gain more of a sense of normalcy. In April 2020, during the height of the covid 19 pandemic- SFMTA had cut 51 of 68 bus lines in the city, leaving 17 in operation due to the stark decrease in ridership. Since then they have restored service and are now operating 51 bus routes, which include new service lines and adjusted frequencies of existing routes. Muni is expected to be running at 85% capacity of pre-pandemic levels this year, but reported ridership does not seemingly match. To understand ridership, I took SFMTA ridership data and constructed the figure below. 
+
+![Ridership_line](https://user-images.githubusercontent.com/98346785/167926609-c4493128-9cc2-4599-bb95-5cbd4a7775f4.png)
+
+Pre-pandemic in 2019, Muni was seeing an average weekday ridership of 764,954, and currently, in 2022, they are seeing an average weekday ridership of 349,150 on their routes. 
 
 
 ## Research Questions
