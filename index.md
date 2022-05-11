@@ -28,6 +28,9 @@ In public comment, the SFMTA addressed recent delays in Muni due to not having e
 
 ## Research Questions
 
+- How have service cuts and adjusted SF Muni frequencies caused crowding and delays in Muni routes as people are returning back to the office?
+- Which SF Muni bus lines are experiencing the most delays as ridership has increased in the last year?
+
 ## Methodology
 
 ## Key Findings
