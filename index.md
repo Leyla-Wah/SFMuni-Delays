@@ -58,8 +58,8 @@ Before jumping in and comparing the GTFS data to GTFS-RT data, I zoomed out of l
 ## Key Findings
 
 ![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
+![download (1)](https://user-images.githubusercontent.com/98346785/168320897-a4f27833-5494-4a9e-bef4-474dffad3aad.png)
 
-![download (1)](https://user-images.githubusercontent.com/98346785/168320520-b5d43eda-956a-4903-b4e2-64bf544e1451.png)
 
 
 
