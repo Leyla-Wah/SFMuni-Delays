@@ -49,6 +49,10 @@ The red dots in the above images pinpoint a popular bus stop along the 38 and 38
 ![2021_Freq](https://user-images.githubusercontent.com/98346785/168286836-ea28783e-0e03-4900-b962-9606245d64ee.png)
 ![2022_Freq](https://user-images.githubusercontent.com/98346785/168287042-7c5008aa-0100-4601-9259-ea5818f94180.png)
 
+Before jumping in and comparing the GTFS data to GTFS-RT data, I zoomed out of looking at the frequency of one bus route and explored the frequency of bus routes in the whole Muni system using GTFS_Functions built-in mapping capabilities that interactively show you which bus routes have a frequency of 5 minutes or less, and which are between 5 to 10 minutes, and which take longer that 10 minutes. In looking between 2019 and 2022, we can see more frequent buses in 2019 than in 2022. In using GTFS_Functions one can hover their mouse along the output maps below and see the name of the colored line that corresponds with it's set bin of frequency. 
+
+![Route_freq_2019](https://user-images.githubusercontent.com/98346785/168292469-6b800197-5fe6-4507-90e1-a128ca8fc0b0.png)
+![Route_freq_2022](https://user-images.githubusercontent.com/98346785/168292484-1c414981-69e7-47c6-bcbf-c68dfa274bef.png)
 
 
 ## Key Findings
