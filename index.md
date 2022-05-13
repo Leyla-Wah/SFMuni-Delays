@@ -40,6 +40,7 @@ First, I used Partridge to visualize the expanse of the Muni system from 2019 to
 ![2020_GTFS](https://user-images.githubusercontent.com/98346785/168286721-5f584c22-e4fd-4527-95d2-0fa85fc9736d.png)
 ![2021_GTFS](https://user-images.githubusercontent.com/98346785/168286735-8ca10a6d-b2c0-4081-aff5-db4cbe5eb48d.png)
 ![2022_GTFS](https://user-images.githubusercontent.com/98346785/168286751-236d4ad7-b874-478d-986d-6ef406d22b48.png)
+*Data Source: https://transitfeeds.com/p/sfmta/60?p=1*
 
 The red dots in the above images pinpoint a popular bus stop along the 38 and 38R bus routes. The Geary Street and Powell Street bus stop is in close proximity to the BART and is utilized as a transfer stop between the two modes. Riders will also take this stop from downtown San Francisco to more residential areas. To further explore the data, I wanted to see how frequent buses arrive at this stop during prime commuting hours over a 2 hour period in the afternoon. The below screenshots are output from a code that precisely does that to the static GTFS data using Partridge. 
 
@@ -47,11 +48,16 @@ The red dots in the above images pinpoint a popular bus stop along the 38 and 38
 ![2020_Freq](https://user-images.githubusercontent.com/98346785/168286827-619ff596-a015-49e5-b272-36ca594d4a0a.png)
 ![2021_Freq](https://user-images.githubusercontent.com/98346785/168286836-ea28783e-0e03-4900-b962-9606245d64ee.png)
 ![2022_Freq](https://user-images.githubusercontent.com/98346785/168287042-7c5008aa-0100-4601-9259-ea5818f94180.png)
+*Data Source: https://transitfeeds.com/p/sfmta/60?p=1*
+
 
 I zoomed out of looking at the frequency of one bus route and explored the frequency of bus routes in the whole Muni system using GTFS_Functions built-in mapping capabilities that interactively show you which bus routes have a frequency of 5 minutes or less, and which are between 5 to 10 minutes, and which take longer that 10 minutes. In looking between 2019 and 2022, we can see more frequent buses in 2019 than in 2022. In using GTFS_Functions one can hover their mouse along the output maps below and see the name of the colored line that corresponds with it's set bin of frequency. 
 
 ![Route_freq_2019](https://user-images.githubusercontent.com/98346785/168292469-6b800197-5fe6-4507-90e1-a128ca8fc0b0.png)
+*Data Source: https://transitfeeds.com/p/sfmta/60?p=1*
+
 ![Route_freq_2022](https://user-images.githubusercontent.com/98346785/168292484-1c414981-69e7-47c6-bcbf-c68dfa274bef.png)
+*Data Source: https://www.sfmta.com/reports/gtfs-transit-data*
 
 ## Key Findings
 
