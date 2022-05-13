@@ -47,7 +47,7 @@ The red dots in the above images pinpoint a popular bus stop along the 38 and 38
 ![2019_Freq](https://user-images.githubusercontent.com/98346785/168286812-21fb0485-4130-4835-8343-6a48e42b81b9.png)
 ![2020_Freq](https://user-images.githubusercontent.com/98346785/168286827-619ff596-a015-49e5-b272-36ca594d4a0a.png)
 ![2021_Freq](https://user-images.githubusercontent.com/98346785/168286836-ea28783e-0e03-4900-b962-9606245d64ee.png)
-![2022_GTFS](https://user-images.githubusercontent.com/98346785/168286851-c69d1335-93ca-494a-aefb-ab05721e9e13.png)
+![2022_Freq](https://user-images.githubusercontent.com/98346785/168287042-7c5008aa-0100-4601-9259-ea5818f94180.png)
 
 
 
@@ -56,7 +56,7 @@ The red dots in the above images pinpoint a popular bus stop along the 38 and 38
 ![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
 
 
-## Key Findings
+
 
 
 
