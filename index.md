@@ -55,14 +55,14 @@ I zoomed out of looking at the frequency of one bus route and explored the frequ
 
 ## Key Findings
 
--The particular 38/38R bus route used as a use case showed that frequency dropped by nearly 43% Pre-pandemic to now.
--![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
+- The particular 38/38R bus route used as a use case showed that frequency dropped by nearly 43% Pre-pandemic to now.
+- ![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
 *The rapid bus line is not running as frequent and could be an explanation of observed delays along this line*
 
--There are far more frequent bus routes in 2019 compared to 2022, where multiple rapid bus lines were running at high frequencies. The figures below show the difference in frequency of buses offered in a 4 to 8 minute period along Muni bus lines.
-![download (2)](https://user-images.githubusercontent.com/98346785/168334998-26ef22f8-ce41-4539-a8e5-c482f1610555.png)
+- There are far more frequent bus routes in 2019 compared to 2022, where multiple rapid bus lines were running at high frequencies. The figures below show the difference in frequency of buses offered in a 4 to 8 minute period along Muni bus lines.
+- ![download (2)](https://user-images.githubusercontent.com/98346785/168334998-26ef22f8-ce41-4539-a8e5-c482f1610555.png)
 *The most frequent SFMTA buses (in order) in 2019 are the 1, KT, 22, C, 45, 5/5R, 38/38R, 41, 30, 14/14R, 8, 29, 24, L TARAVAL.*
-![download (1)](https://user-images.githubusercontent.com/98346785/168320897-a4f27833-5494-4a9e-bef4-474dffad3aad.png)
+- ![download (1)](https://user-images.githubusercontent.com/98346785/168320897-a4f27833-5494-4a9e-bef4-474dffad3aad.png)
 *The most frequent SFMTA buses (in order) in 2022 are the 1, 14/14R, 30, 49, 22, KT, 8, 5, 38/38R.*
 
 Through these key findings, it is clear that COVID-19 pummelled transit ridership in San Francisco. As bus routes and frequencies have changed to accomodate the decrease in ridership during the pandemic, the current city's bus network needs to be reaccessed to accomodate the crowding documented on popular lines. By increasing rapid bus service and isolating which bus lines are gaining ridership by the closing of others, the muni network can be optimized. Next steps in this project is to measure real time delays of these bus routes to see if the static GTFS frequency is accurate.
