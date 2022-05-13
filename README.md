@@ -1,7 +1,7 @@
 # SFMuni-Delays
-Measuring SF Muni Delays as Ridership increases post COVID19 Restrictions
+Measuring SF Muni Frequencies as Ridership increases post COVID-19 Restrictions
 
-# Measuring San Francisco’s Muni Bus Line Delays as Ridership Expands
+# Measuring San Francisco’s Muni Bus Frequencies as Ridership Expands
 
 San Francisco’s Muni bus lines have been in flux for the past two or more years due to the repercussions and restrictions of COVID-19. As ridership has been steadily increasing, riding the bus during peak commuting hours has proved that popular bus lines experience delays, crowding, and congestion- similar to what it was like riding the bus pre-pandemic. This project aims to look at what has been observed for those recently riding the bus and look at the muni system as a whole to see which bus lines are experiencing the most delays as bus frequency and schedules have changed. In this exercise, I analyze and visualize SFMTA ridership data, SFMTA Muni route data, static GTFS data from the year 2019 to 2022. In looking at this time period, we will be able to see conditions of riding the bus pre-pandemic, when ridership and bus frequency was at a high while setting a baseline, to what it was like riding the bus during the height of the pandemic, and to now. In doing so, we hope to understand how the Muni bus network could alleviate some of its delays and congestion on popular lines. 
 
