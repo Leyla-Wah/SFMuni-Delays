@@ -28,10 +28,33 @@ In public comment, the SFMTA addressed recent delays in Muni due to not having e
 
 ## Research Questions
 
-- How have service cuts and adjusted SF Muni frequencies caused crowding and delays in Muni routes as people are returning back to the office?
+- How have service cuts and adjusted SF Muni frequencies caused crowding and delays in Muni routes as employees are returning back to the CBD?
 - Which SF Muni bus lines are experiencing the most delays as ridership has increased in the last year?
 
 ## Methodology
+
+To understand which bus lines are experiencing the most delays, I utilize two different Python packages that digest GTFS data to showcase how routes have changed over time, along with visualizing the frequency of buses in the Muni system. The packages are Partridge and GTFS_Functions. 
+
+First, I used Partridge to visualize the expanse of the Muni system from 2019 to 2022. In the attached figures below it can be visually seen that more bus lines running east to west in the downtown area in 2019 compared to now. From this, it can be inferred that riders are now crowding the bus lines that are in service within the area and having fewer bus options than they once did. 
+
+![2019_GTFS](https://user-images.githubusercontent.com/98346785/168286678-8b7468a0-f3ef-4622-899d-2862be63b395.png)
+![2020_GTFS](https://user-images.githubusercontent.com/98346785/168286721-5f584c22-e4fd-4527-95d2-0fa85fc9736d.png)
+![2021_GTFS](https://user-images.githubusercontent.com/98346785/168286735-8ca10a6d-b2c0-4081-aff5-db4cbe5eb48d.png)
+![2022_GTFS](https://user-images.githubusercontent.com/98346785/168286751-236d4ad7-b874-478d-986d-6ef406d22b48.png)
+
+The red dots in the above images pinpoint a popular bus stop along the 38 and 38R bus routes. The Geary Street and Powell Street bus stop is in close proximity to the BART and is utilized as a transfer stop between the two modes. Riders will also take this stop from downtown San Francisco to more residential areas. To further explore the data, I wanted to see how frequent buses arrive at this stop during prime commuting hours over a 2 hour period in the afternoon. The below screenshots are output from a code that precisely does that to the static GTFS data using Partridge. 
+
+![2019_Freq](https://user-images.githubusercontent.com/98346785/168286812-21fb0485-4130-4835-8343-6a48e42b81b9.png)
+![2020_Freq](https://user-images.githubusercontent.com/98346785/168286827-619ff596-a015-49e5-b272-36ca594d4a0a.png)
+![2021_Freq](https://user-images.githubusercontent.com/98346785/168286836-ea28783e-0e03-4900-b962-9606245d64ee.png)
+![2022_GTFS](https://user-images.githubusercontent.com/98346785/168286851-c69d1335-93ca-494a-aefb-ab05721e9e13.png)
+
+
+
+## Key Findings
+
+![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
+
 
 ## Key Findings
 
