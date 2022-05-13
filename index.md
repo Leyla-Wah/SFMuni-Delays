@@ -1,6 +1,6 @@
 # Measuring San Francisco’s Muni Bus Line Delays as Ridership Expands
 
-San Francisco’s Muni bus lines have been in flux for the past two or more years due to the repercussions and restrictions of COVID-19. As ridership has been steadily increasing, riding the bus during peak commuting hours has proved that popular bus lines experience delays, crowding, and congestion- similar to what it was like riding the bus pre-pandemic. This project aims to look at what has been observed for those recently riding the bus and look at the muni system as a whole to see which bus lines are experiencing the most delays. In this exercise, I analyze and visualize SFMTA ridership data, SFMTA Muni route data, static GTFS data, and GTFS-RT data from the year 2019 to 2022. In looking at this time period, we will be able to see conditions of riding the bus pre-pandemic, when ridership and bus frequency was at a high while setting a baseline, to what it was like riding the bus during the height of the pandemic, and to now. In doing so, we hope to understand how the Muni bus network could alleviate some of its delays and congestion on popular lines. 
+San Francisco’s Muni bus lines have been in flux for the past two or more years due to the repercussions and restrictions of COVID-19. As ridership has been steadily increasing, riding the bus during peak commuting hours has proved that popular bus lines experience delays, crowding, and congestion- similar to what it was like riding the bus pre-pandemic. This project aims to look at what has been observed for those recently riding the bus and look at the muni system as a whole to see which bus lines are experiencing the most delays as bus frequency and schedules have changed. In this exercise, I analyze and visualize SFMTA ridership data, SFMTA Muni route data, static GTFS data from the year 2019 to 2022. In looking at this time period, we will be able to see conditions of riding the bus pre-pandemic, when ridership and bus frequency was at a high while setting a baseline, to what it was like riding the bus during the height of the pandemic, and to now. In doing so, we hope to understand how the Muni bus network could alleviate some of its delays and congestion on popular lines. 
 
 ## Background
 
@@ -29,7 +29,6 @@ In public comment, the SFMTA addressed recent delays in Muni due to not having e
 ## Research Questions
 
 - How have service cuts and adjusted SF Muni frequencies caused crowding and delays in Muni routes as employees are returning back to the CBD?
-- Which SF Muni bus lines are experiencing the most delays as ridership has increased in the last year?
 
 ## Methodology
 
@@ -49,83 +48,21 @@ The red dots in the above images pinpoint a popular bus stop along the 38 and 38
 ![2021_Freq](https://user-images.githubusercontent.com/98346785/168286836-ea28783e-0e03-4900-b962-9606245d64ee.png)
 ![2022_Freq](https://user-images.githubusercontent.com/98346785/168287042-7c5008aa-0100-4601-9259-ea5818f94180.png)
 
-Before jumping in and comparing the GTFS data to GTFS-RT data, I zoomed out of looking at the frequency of one bus route and explored the frequency of bus routes in the whole Muni system using GTFS_Functions built-in mapping capabilities that interactively show you which bus routes have a frequency of 5 minutes or less, and which are between 5 to 10 minutes, and which take longer that 10 minutes. In looking between 2019 and 2022, we can see more frequent buses in 2019 than in 2022. In using GTFS_Functions one can hover their mouse along the output maps below and see the name of the colored line that corresponds with it's set bin of frequency. 
+I zoomed out of looking at the frequency of one bus route and explored the frequency of bus routes in the whole Muni system using GTFS_Functions built-in mapping capabilities that interactively show you which bus routes have a frequency of 5 minutes or less, and which are between 5 to 10 minutes, and which take longer that 10 minutes. In looking between 2019 and 2022, we can see more frequent buses in 2019 than in 2022. In using GTFS_Functions one can hover their mouse along the output maps below and see the name of the colored line that corresponds with it's set bin of frequency. 
 
 ![Route_freq_2019](https://user-images.githubusercontent.com/98346785/168292469-6b800197-5fe6-4507-90e1-a128ca8fc0b0.png)
 ![Route_freq_2022](https://user-images.githubusercontent.com/98346785/168292484-1c414981-69e7-47c6-bcbf-c68dfa274bef.png)
 
-
 ## Key Findings
 
-![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
+-The particular 38/38R bus route used as a use case showed that frequency dropped by nearly 43% Pre-pandemic to now.
+-![download](https://user-images.githubusercontent.com/98346785/168286647-1e6c585b-a499-4673-881d-95c05fee6f66.png)
+*The rapid bus line is not running as frequent and could be an explanation of observed delays along this line*
 
+-There are far more frequent bus routes in 2019 compared to 2022, where multiple rapid bus lines were running at high frequencies. The figures below show the difference in frequency of buses offered in a 4 to 8 minute period along Muni bus lines.
 ![download (2)](https://user-images.githubusercontent.com/98346785/168334998-26ef22f8-ce41-4539-a8e5-c482f1610555.png)
+*The most frequent SFMTA buses (in order) in 2019 are the 1, KT, 22, C, 45, 5/5R, 38/38R, 41, 30, 14/14R, 8, 29, 24, L TARAVAL.*
 ![download (1)](https://user-images.githubusercontent.com/98346785/168320897-a4f27833-5494-4a9e-bef4-474dffad3aad.png)
+*The most frequent SFMTA buses (in order) in 2022 are the 1, 14/14R, 30, 49, 22, KT, 8, 5, 38/38R.*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Leyla-Wah/SFMuni-Delays/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown  
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Leyla-Wah/SFMuni-Delays/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Through these key findings, it is clear that COVID-19 pummelled transit ridership in San Francisco. As bus routes and frequencies have changed to accomodate the decrease in ridership during the pandemic, the current city's bus network needs to be reaccessed to accomodate the crowding documented on popular lines. By increasing rapid bus service and isolating which bus lines are gaining ridership by the closing of others, the muni network can be optimized. Next steps in this project is to measure real time delays of these bus routes to see if the static GTFS frequency is accurate.
